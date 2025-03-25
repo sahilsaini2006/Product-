@@ -291,10 +291,9 @@ ul {
   border: 2px solid black;
 }
 
-.navtab_border  {
+/* .navtab_border  {
   position: relative;
-  color: rgb(0, 0, 0);
-}
+} */
 .navtab_border::after {
   content: "";
   width: 0%;
@@ -305,9 +304,9 @@ ul {
   transform: translateX(-50%);
   transition: width 0.3s ease-in-out;
 }
-.navtab_border:hover::after {
+/* .navtab_border:hover::after {
   width: 100%;
-}
+} */
 
 
 .color_white:hover button link {
