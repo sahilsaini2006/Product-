@@ -44,15 +44,13 @@ const NavBar = ({ tabStyling }) => {
                   to="/Product"
                   className={` link_btn text-black fs_sm fw-medium lh_150 ${tabStyling}`}
                 >
-                  product
+                  Product
                 </Link>
               </li>
               <li className={`fs_xsm fw-medium lh_150 ${tabStyling}`}>
-                <button className=" border-0" src="../pages/About.jsx">
-                  <Link to="/About" className="btn_1">
-                    Button
-                  </Link>
-                </button>
+                <Link to="/About" className="btn_1">
+                  Button
+                </Link>
               </li>
             </ul>
 

@@ -15,7 +15,7 @@ const Shop = () => {
     <>
       <header>
         <div className="min-vh-100 d-flex flex-column bg_imgPostion ">
-          <NavBar tabStyling="color_white" />
+          <NavBar tabStyling="navtab_border color_white" />
           <div className=" d-flex flex-grow-1 custom_hero_margin">
             <div className="flex-grow-1 d-flex align-items-center justify-content-center flex-column ">
               <p className="fs_3xl fw-bold lh_140 text-white">Shop title</p>
